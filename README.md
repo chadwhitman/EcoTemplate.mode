@@ -12,14 +12,13 @@
 - LInk: <a href="https://panic.com/coda/">https://panic.com/coda</a>
 
 ####How to install
-- Download and unpack the Zip or Tar version
-- Rename the unzipped directory to "EcoTemplate.mode"
-- Copy or move the file to ~/Library/Application\ Support/Coda 2/Modes/
+- Git clone this repo into your Coda 2 Modes directory, which should be found here: <pre>~/Library/Application\ Support/Coda\ 2/Modes</pre>
+- OR...download the Zip or Tar file and rename the unzipped directory to "EcoTemplate.mode"
+    - Then, copy or move the file to ~/Library/Application\ Support/Coda 2/Modes/
 
 ####Credits & Thanks
 This is based on bw-w's CoffeScript plugin: <a href="https://github.com/sstephenson/eco">https://github.com/bm-w/CoffeeScript.mode</a>. 
-Before that it was a fork of Sean Durham's Coda/SubEthaEdit syntax coloring mode for the
-CoffeeScript language, revisited for use with Coda 2.
+Before that it was a fork of Sean Durham's syntax coloring mode for the CoffeeScript language (revisited for use with Coda 2).
 
 ####Contribute
 - This is a work in progress, feel free to contribute
