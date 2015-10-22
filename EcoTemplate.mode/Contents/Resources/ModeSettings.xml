@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <template>template.eco</template>  
+  <recognition>
+    <extension>eco</extension>                  
+    <extension casesensitive="no">eco</extension>
+    <filename>Cakefile</filename>
+  </recognition>
+</settings>

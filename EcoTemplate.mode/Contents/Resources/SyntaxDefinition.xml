@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax>
+  <head>
+    <name>EcoTemplate</name>
+    <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@$]]></charsintokens>
+  </head>
+  <states>
+    <default id="Base">
+      
+      <keywords id="This" scope="language.property" useforautocomplete="yes">
+        <string>this</string>
+      </keywords>
+      
+      <keywords id="Globals, constants and aliases" scope="constant" useforautocomplete="yes">
+        <string>true</string>
+        <string>yes</string>
+        <string>on</string>
+        <string>false</string>
+        <string>no</string>
+        <string>off</string>
+        
+        <string>null</string>
+        <string>undefined</string>
+        
+        <string>arguments</string>
+        <string>process</string>
+        <string>console</string>
+        <string>window</string>
+        <string>document</string>
+        <string>$</string>
+      </keywords>
+      
+      <keywords id="Keywords" scope="keyword.control" useforautocomplete="yes">
+        <string>if</string>
+        <string>unless</string>
+        <string>else</string>
+        <string>switch</string>
+        <string>when</string>
+        <string>then</string>
+        
+        <string>class</string>
+        <string>extends</string>
+        
+        <string>for</string>
+        <string>in</string>
+        <string>while</string>
+        <string>until</string>
+        <string>do</string>
+        
+        <string>break</string>
+        <string>continue</string>
+        <string>return</string>
+        
+        <string>try</string>
+        <string>catch</string>
+        <string>finally</string>
+        <string>throw</string>
+        
+        <string>new</string>
+      </keywords>
+      
+      <keywords id="Operators" useforautocomplete="yes" scope="language.operator">
+        <string>is</string>
+        <string>isnt</string>
+        <string>not</string>
+        <string>and</string>
+        <string>of</string>
+        <string>or</string>
+        <string>in</string>
+        <regex>([\+\-\*\/\=\!\?\&lt;\>\%])</regex>
+      </keywords>
+      
+      <state id="Test" scope="language.class">
+        <begin><regex>{(?={)</regex></begin>
+        <end><regex>(?&lt;=})}</regex></end>
+        
+        <state id="Sub test" scope="language.operator">
+          <begin><regex>{</regex></begin>
+          <end><regex>}</regex></end>
+        </state>
+      </state>
+      
+      <keywords id="Function definition" scope="language.function">
+        <regex>([\-=]>)</regex>
+      </keywords>
+<state id="Function definition" scope="language.function">
+        <begin><regex>\((?=[^\n\)]*?\)\s*[\-=]>)</regex></begin>
+        <end><regex>\)\s*[\-=]></regex></end>
+        
+        <keywords id="Function argument" scope="language.function.argument">
+          <regex>[\(,]\s*(\w+)\s*(?=[=,\)])</regex>
+        </keywords>
+        
+        <state id="Function argument defaults" type="block" scope="meta.block">
+          <begin><string>=</string></begin>
+          <end><regex>\s(?=[,\)])</regex></end>
+          <import />
+        </state>
+      </state>
+      
+      <keywords id="Numbers" scope="constant.numeric" casesensitive="yes" useforautocomplete="yes">
+        <string>NaN</string>
+        <string>infinity</string>
+        <regex>(?&lt;=[^\w\d]|^)(((([0-9]+\.[0-9]*)|(\.[0-9]+))([eE][+\-]?[0-9]+)?[fFlL]?)|((([1-9][0-9]*)|0[0-7]*|(0[xX][0-9a-fA-F]+))(([uU][lL]?)|([lL][uU]?))?))(?=[^\w\d]|$)</regex>
+      </keywords>
+      
+      <keywords id="Properties" scope="language.property">
+        <regex>(@\w*)</regex>
+        <regex>(\w+(\s+)?:)</regex>
+        <regex>(?:\D|[a-zA-Z@\$]\d)\.(\w+)</regex>
+      </keywords>
+      
+      <keywords id="Special variables" scope="language.variable">
+        <regex>(\$\w*)</regex>
+      </keywords>
+      
+      <keywords id="Classes" scope="language.class">
+        <regex>(\b[A-Z]\w*)</regex>
+      </keywords>
+            
+      <state id="Comment" scope="markup.comment" foldable="yes" usespellchecking="yes">
+        <begin><regex>###</regex></begin>
+        <end><regex>###</regex></end>
+      </state>
+      
+      <state id="Single Comment" scope="markup.comment" usespellchecking="yes">
+        <begin><regex>#</regex></begin>
+        <end><regex>[\n\r]</regex></end>
+      </state>
+      
+      <state id="String" scope="string" usespellchecking="yes">
+        <begin><regex>"</regex></begin>
+        <end><regex>(((?&lt;!\\)(\\\\)*)|^)"</regex></end>
+        
+        <state id="Interpolation" scope="string.interpolation">
+          <begin><regex>#(?={)</regex></begin>
+          <end><regex>}</regex></end>
+          
+          <state id="Interpolation code" type="block" foldable="yes">
+            <begin><regex>(?&lt;={)\s</regex></begin>
+            <end><regex>\s(?=})</regex></end>
+            <import />
+          </state>
+        </state>
+      </state>
+      
+      <state id="Single String" scope="string" usespellchecking="yes">
+        <begin><regex>'</regex></begin>
+        <end><regex>(((?&lt;!\\)(\\\\)*)|^)'</regex></end>
+      </state>
+      
+      <state id="Regular expression" scope="string.regex">
+        <begin><regex>(?i)(?&lt;=[=(,:\+~]|^|return|;)\s*/(?![/*+{}?])</regex></begin>
+        <end><regex>/[cgimosx]*</regex></end>
+      </state>
+      
+      <state id="Embedded JavaScript" type="block" foldable="yes" indent="yes" scope="meta.block">
+        <begin><regex>`</regex><autoend>`</autoend></begin>
+        <end><regex>`</regex></end>
+        <import mode="JavaScript" />
+      </state>
+    </default>
+  </states>
+</syntax>
