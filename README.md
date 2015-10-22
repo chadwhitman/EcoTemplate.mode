@@ -1,9 +1,9 @@
 ##Eco-for-Coda2
 
-###This plugin provides Coda 2 support for Embedded CoffeeScript templates (.eco)
+####This plugin provides Coda 2 support for Embedded CoffeeScript templates (.eco)
 - Link: <a href="https://github.com/sstephenson/eco">https://github.com/sstephenson/eco</a>
 
-###How to install
+####How to install
 - Download and unpack the Zip or Tar version
 - Rename the unzipped directory to "EcoTemplate.mode"
 - Copy or move the file to ~/Library/Application\ Support/Coda 2/Modes/
