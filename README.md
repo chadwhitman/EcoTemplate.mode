@@ -4,7 +4,7 @@
 - Overview
 - How to Install
 - Credits
-- Contributors
+- Contribute
 
 ####Summary
 - This plugin provides Coda 2 support for Embedded CoffeeScript templates (.eco)
@@ -21,8 +21,7 @@ This is based on bw-w's CoffeScript plugin: <a href="https://github.com/sstephen
 Before that it was a fork of Sean Durham's Coda/SubEthaEdit syntax coloring mode for the
 CoffeeScript language, revisited for use with Coda 2.
 
-####Contributors to EcoTemplate
-- Chad Whitman https://github.com/chadwhitman
+####Contribute
 - This is a work in progress, feel free to contribute
 
 ####P.S.
