@@ -18,7 +18,7 @@
 ####How to install
 - Git clone this repo into your Coda 2 Modes directory, which should be found here: <pre>cd ~/Library/Application\ Support/Coda\ 2/Modes</pre>
 - OR...download the Zip or Tar file and rename the unzipped directory to "EcoTemplate.mode"
-    - Then, copy or move the file to ~/Library/Application\ Support/Coda 2/Modes/
+    - Then, cp or mv the file to: ~/Library/Application\ Support/Coda\ 2/Modes/
 
 ####Credits & Thanks
 This is based on bw-w's CoffeScript plugin: <a href="https://github.com/sstephenson/eco">https://github.com/bm-w/CoffeeScript.mode</a>. 
