@@ -15,7 +15,7 @@
 - Coda 2: <a href="https://panic.com/coda/">https://panic.com/coda</a>
 
 ####How to install
-- Git clone this repo into your Coda 2 Modes directory, which should be found here: <pre>~/Library/Application\ Support/Coda\ 2/Modes</pre>
+- Git clone this repo into your Coda 2 Modes directory, which should be found here: <pre>cd ~/Library/Application\ Support/Coda\ 2/Modes</pre>
 - OR...download the Zip or Tar file and rename the unzipped directory to "EcoTemplate.mode"
     - Then, copy or move the file to ~/Library/Application\ Support/Coda 2/Modes/
 
