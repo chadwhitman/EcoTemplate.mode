@@ -83,7 +83,6 @@
       
       <keywords id="Function definition" scope="language.function">
         <regex>([\-=]>)</regex>
-        <regex>([\-=]%)</regex>
       </keywords>
 <state id="Function definition" scope="language.function">
         <begin><regex>\((?=[^\n\)]*?\)\s*[\-=]>)</regex></begin>
@@ -114,6 +113,7 @@
       
       <keywords id="Special variables" scope="language.variable">
         <regex>(\$\w*)</regex>
+        <regex>(\<%\w*)</regex>
       </keywords>
       
       <keywords id="Classes" scope="language.class">
