@@ -1,4 +1,4 @@
-##EcoTemplate.mode Coda 2 Plugin
+##EcoTemplate for Coda 2
 
 ####Table of Contents
 - Overview
