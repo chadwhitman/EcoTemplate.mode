@@ -32,6 +32,7 @@
       
       <keywords id="Keywords" scope="keyword.control" useforautocomplete="yes">
         <string>if</string>
+        <string>end</string>
         <string>unless</string>
         <string>else</string>
         <string>switch</string>
