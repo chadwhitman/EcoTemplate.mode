@@ -8,8 +8,8 @@
 
 ####Overview
 - This plugin provides Coda 2 syntax highlighting for Embedded CoffeeScript templates (.eco)
-- Link: <a href="https://github.com/sstephenson/eco">https://github.com/sstephenson/eco</a>
-- LInk: <a href="https://panic.com/coda/">https://panic.com/coda</a>
+- .eco templates: <a href="https://github.com/sstephenson/eco">https://github.com/sstephenson/eco</a>
+- coda 2: <a href="https://panic.com/coda/">https://panic.com/coda</a>
 
 ####How to install
 - Git clone this repo into your Coda 2 Modes directory, which should be found here: <pre>~/Library/Application\ Support/Coda\ 2/Modes</pre>
