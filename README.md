@@ -2,14 +2,17 @@
 
 ####Table of Contents
 - Overview
+- Links
 - How to Install
 - Credits
 - Contribute
 
 ####Overview
-- This plugin provides Coda 2 syntax highlighting for Embedded CoffeeScript templates (.eco)
-- .eco templates: <a href="https://github.com/sstephenson/eco">https://github.com/sstephenson/eco</a>
-- coda 2: <a href="https://panic.com/coda/">https://panic.com/coda</a>
+- This plugin provides syntax highlighting for Eco (Embedded CoffeeScript) Templates in Coda 2
+
+####Links
+- Eco templates: <a href="https://github.com/sstephenson/eco">https://github.com/sstephenson/eco</a>
+- Coda 2: <a href="https://panic.com/coda/">https://panic.com/coda</a>
 
 ####How to install
 - Git clone this repo into your Coda 2 Modes directory, which should be found here: <pre>~/Library/Application\ Support/Coda\ 2/Modes</pre>
@@ -18,10 +21,7 @@
 
 ####Credits & Thanks
 This is based on bw-w's CoffeScript plugin: <a href="https://github.com/sstephenson/eco">https://github.com/bm-w/CoffeeScript.mode</a>. 
-Before that it was a fork of Sean Durham's syntax coloring mode for the CoffeeScript language (revisited for use with Coda 2). I only made a few minor adjustments to their code so it could work with .eco templates.
+Before that it was a fork of Sean Durham's syntax coloring mode for the CoffeeScript language (revisited for use with Coda 2).
 
 ####Contribute
-- This is a work in progress, feel free to contribute
-
-####P.S.
-I know everyone loves Sublime Text 2, but I still think Coda 2 rocks!
+- This is a work in progress, so feel free to contribute.
