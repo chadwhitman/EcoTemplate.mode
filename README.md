@@ -18,7 +18,7 @@
 
 ####Credits & Thanks
 This is based on bw-w's CoffeScript plugin: <a href="https://github.com/sstephenson/eco">https://github.com/bm-w/CoffeeScript.mode</a>. 
-Before that it was a fork of Sean Durham's syntax coloring mode for the CoffeeScript language (revisited for use with Coda 2).
+Before that it was a fork of Sean Durham's syntax coloring mode for the CoffeeScript language (revisited for use with Coda 2). I only made a few minor adjustments to their code so it could work with .eco templates.
 
 ####Contribute
 - This is a work in progress, feel free to contribute
