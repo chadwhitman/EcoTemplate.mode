@@ -2,17 +2,18 @@
 
 ####Table of Contents
 - Overview
-- Links
+- Helpful Links
 - How to Install
 - Credits
 - Contribute
 
 ####Overview
-- This plugin provides syntax highlighting for Eco (Embedded CoffeeScript) Templates in Coda 2
+- This plugin provides syntax highlighting for Embedded CoffeeScript (.eco) templates in Coda 2.
 
-####Links
+####Helpful Links
 - Eco templates: <a href="https://github.com/sstephenson/eco">https://github.com/sstephenson/eco</a>
 - Coda 2: <a href="https://panic.com/coda/">https://panic.com/coda</a>
+- CoffeeScript: <a href="https://github.com/jashkenas/coffeescript">https://github.com/jashkenas/coffeescript</a>
 
 ####How to install
 - Git clone this repo into your Coda 2 Modes directory, which should be found here: <pre>cd ~/Library/Application\ Support/Coda\ 2/Modes</pre>
