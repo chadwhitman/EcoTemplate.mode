@@ -1,4 +1,4 @@
 CFBundleName = "EcoTemplate";
 CFBundleShortVersionString = "";
 CFBundleGetInfoString = "EcoTemplate Mode";
-NSHumanReadableCopyright = "© Chad Whitman 2015";
+NSHumanReadableCopyright = "© Chad Whitman 2015, see Readme for credits, Creative Commons 4.0";
