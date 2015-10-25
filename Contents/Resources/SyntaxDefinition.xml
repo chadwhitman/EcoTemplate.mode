@@ -114,6 +114,8 @@
       <keywords id="Special variables" scope="language.variable">
         <regex>(\$\w*)</regex>
         <regex>(\%\w*)</regex>
+        <regex>(\=\w*)</regex>
+        <regex>(\-\w*)</regex>
       </keywords>
       
       <keywords id="Classes" scope="language.class">
