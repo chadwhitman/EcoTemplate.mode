@@ -4,8 +4,12 @@
 <dict>
 	<key>Comments</key>
 	<dict>
-		<key>StartTag</key>
-		<string>#</string>
+    	<key>StartTag</key>
+    	<string>&lt;%</string>
+		<key>EndTag</key>
+		<string>&gt;%</string>
 	</dict>
+	<key>Name</key>
+	<string>EcoTemplate</string>
 </dict>
 </plist>

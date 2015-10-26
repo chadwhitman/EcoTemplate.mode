@@ -4,6 +4,8 @@
   <recognition>
     <extension>eco</extension>                  
     <extension casesensitive="no">eco</extension>
-    <filename>Cakefile</filename>
+    <extension>dhtml</extension>
+    <extension>html</extension>
+    <extension>htm</extension>
   </recognition>
 </settings>
