@@ -115,8 +115,8 @@
         <regex>(\$\w*)</regex>
         <regex>(%&gt;)</regex>
         <regex>(&lt;%)</regex>
-        <regex>(&lt;%=)</regex>
-        <regex>(&lt;%-)</regex>
+        <regex>(&lt;%&equals;)</regex>
+        <regex>(&lt;%&#8211;)</regex>
       </keywords>
       
       <keywords id="Classes" scope="language.class">
