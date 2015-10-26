@@ -7,7 +7,7 @@
     	<key>StartTag</key>
     	<string>&lt;%</string>
 		<key>EndTag</key>
-		<string>&gt;%</string>
+		<string>%&gt;</string>
 	</dict>
 	<key>Name</key>
 	<string>EcoTemplate</string>
