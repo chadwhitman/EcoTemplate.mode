@@ -2,7 +2,7 @@
 <symbols>
     <blocks>
         <beginregex>&lt;%</beginregex>
-        <endregex>&gt;%</endregex>
+        <endregex>%&gt;</endregex>
     </blocks>
     
     <symbol id="Classes" image="SymbolC" indentation="0" ignoreblocks="yes">
