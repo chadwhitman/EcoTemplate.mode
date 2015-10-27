@@ -108,6 +108,7 @@
       
       <keywords id="Properties" scope="language.property">
         <regex>(@\w*)</regex>
+        <regex>(w*\(\)$)</regex>
         <regex>(\w+(\s+)?:)</regex>
         <regex>(?:\D|[a-zA-Z@\$]\d)\.(\w+)</regex>
       </keywords>
@@ -116,6 +117,7 @@
         <regex>(\$\w*)</regex>
         <regex>(%&gt;)</regex>
         <regex>(%%&gt;)</regex>
+        <regex>(%%$)</regex>
         <regex>(&lt;%)</regex>
         <regex>(&lt;%%)</regex>
         <regex>(\=\w*)</regex>
