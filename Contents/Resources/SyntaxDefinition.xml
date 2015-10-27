@@ -115,9 +115,9 @@
       
       <keywords id="Special variables" scope="language.variable">
         <regex>(\$\w*)</regex>
+        <regex>(\%%\w*)</regex>
         <regex>(%&gt;)</regex>
         <regex>(%%&gt;)</regex>
-        <regex>(\%%(\w+))</regex>
         <regex>(&lt;%)</regex>
         <regex>(&lt;%%)</regex>
         <regex>(\=\w*)</regex>
