@@ -120,6 +120,7 @@
         <regex>(&lt;%%)</regex>
         <regex>(\=\w*)</regex>
         <regex>(\-\w*)</regex>
+        <regex>(data-\w*)</regex>
       </keywords>
       
       <keywords id="Classes" scope="language.class">
