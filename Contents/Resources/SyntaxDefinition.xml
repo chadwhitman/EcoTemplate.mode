@@ -117,7 +117,7 @@
         <regex>(\$\w*)</regex>
         <regex>(%&gt;)</regex>
         <regex>(%%&gt;)</regex>
-        <regex>(%%$)</regex>
+        <regex>(\%%(\w+))</regex>
         <regex>(&lt;%)</regex>
         <regex>(&lt;%%)</regex>
         <regex>(\=\w*)</regex>
