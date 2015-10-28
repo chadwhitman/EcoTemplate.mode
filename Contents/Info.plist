@@ -21,6 +21,6 @@
 	<key>CodaAuthorString</key>
 	<string>Chad Whitman</string>
 	<key>CodaDescriptionString</key>
-	<string>This plugin provides syntax highlighting for Embedded CoffeeScript (.eco) templates.</string>
+	<string>Provides syntax highlighting for Embedded CoffeeScript (.eco) templates.</string>
 </dict>
 </plist>
