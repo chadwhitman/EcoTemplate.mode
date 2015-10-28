@@ -21,6 +21,6 @@
 	<key>CodaAuthorString</key>
 	<string>Chad Whitman</string>
 	<key>CodaDescriptionString</key>
-	<string>Provides syntax highlighting for Embedded CoffeeScript (.eco) templates.</string>
+	<string>Provides syntax highlighting for Embedded CoffeeScript templates.</string>
 </dict>
 </plist>
